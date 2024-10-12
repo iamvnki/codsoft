@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.background-img{
+    /* background: url(./images/background.png) no-repeat ;
+    background-size:auto; */
+    position: relative;
+    height: auto;
+        
+}
+.background-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size:auto;
+    background: url(./images/background.png) ;
+    z-index: -1;
+}
+
+.ratan-img{
+    margin-top: -40px;
+    border-radius: 50%;
+    width:370px;
+ 
+}
+.head{
+    letter-spacing: 5px;
+    color: blue;
+    text-shadow: 10px 20px 50px black;
+}
+.font-weight-bold{
+    font-weight: 700;
+    word-spacing: 10px;
+}
+.img-1{
+  
+    position: relative;
+    
+}
+.img-1::before{
+    content: "";
+    position: absolute;
+    background: url(./images/parl1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(1px); 
+    opacity: 0.5;
+    z-index: -1;
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px yellow;
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background: url(./images/ratan.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.box:hover{
+    opacity: 0.6;
+}
+.img-2{
+  
+    position: relative;
+    
+}
+.img-2::before{
+    content: "";
+    position: absolute;
+    background: url(./images/parl2.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(1px); 
+    opacity: 0.5;
+    z-index: -1;
+}
